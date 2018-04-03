@@ -77,7 +77,7 @@ configuration: ## Section
       ## it to 25 and more on a medium-sized pod. This applies per started
       ## Sidekiq worker, so if you set it to 25 and start two workers, you'll
       ## process up to 50 jobs in parallel.
-      #concurrency: 5
+      concurrency: 1
 
       ## Number of times a job is retried (default=10).
       ## There's an exponential effect to this: if you set this too high you
@@ -88,7 +88,7 @@ configuration: ## Section
       ## Lines of backtrace that are stored on failure (default=15).
       ## Set n to the required value. Set this to false to reduce Redis memory
       ## usage (and log size) if you're not interested in this data.
-      #backtrace: 15
+      backtrace: false
 
       ## Number of jobs to keep in the dead queue (default=5000).
       ## Jobs get into the dead queue after they failed and exhausted all retries.
@@ -191,7 +191,7 @@ configuration: ## Section
 
     ## Number of Unicorn worker processes (default=2).
     ## Increase this if you have many users.
-    #unicorn_worker: 2
+    unicorn_worker: 1
 
     ## Number of seconds before a request is aborted (default=90).
     ## Increase if you get empty responses, or if large image uploads fail.

@@ -9,15 +9,15 @@ $gray:         lighten($gray-base, 13.5%);
 $gray-light:   lighten($gray-base, 28%);
 $gray-lighter: lighten($gray-base, 58%);
 
-$green: #346535;
-$red: #622;
-$blue: #4183c4;
-$yellow: #645a1b;
-$orange: #664100;
+$green: 	#107c10;
+$red: #e81123;
+$blue: #0078d4;
+$yellow: #ffb900;
+$orange: #d83b01;
 
 $light-blue: lighten($blue, 5%);
 
-$brand-primary: darken($blue, 5%);
+$brand-primary: $blue;
 $brand-success: $green;
 $brand-info: darken(adjust-hue($brand-primary, -30), 15%);
 $brand-danger: lighten($red, 10%);

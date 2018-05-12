@@ -2,6 +2,7 @@
 @import "style";
 @import "application";
 
+
 .navbar.navbar-inverse,
 .navbar.navbar-fixed-top {
     a:hover,
@@ -9,13 +10,45 @@
     .user-menu-dropdown > a:hover {
         background-color: $light-blue !important;
     }
+
+    .navbar-form {
+        > .form-group > .twitter-typeahead > input:not(.active) {
+            border-color: white;
+
+            &::placeholder {
+                color: white;
+                opacity: 1;
+            }
+        }
+    }
 }
 
-.navbar.navbar-inverse {
-    .navbar-toggle:hover, 
-    .navbar-inverse 
-    .navbar-toggle:focus
-    {
-        background-color: $light-blue !important;
+.navbar.navbar-inverse { 
+    .navbar-toggle {
+        border-color: $white;
+        &:hover, 
+        &:focus
+        {
+            background-color: $light-blue !important;
+        }
     }
+}
+
+.left-navbar {
+    .selected {
+        > .hoverable {
+            color: $white;
+            background-color: $brand-primary;
+            border-color: $brand-primary;
+        }
+    }
+
+    .hoverable:hover {    
+        background-color: $cyan;
+    }
+}
+
+.form-control,
+.btn {
+    border-radius: 0px !important;
 }

@@ -1,3 +1,10 @@
 @import "mixins";
 @import "style";
 @import "application";
+
+.navbar.navbar-inverse {
+    a:hover,
+    li > a:hover {
+        background-color: $light-blue;
+    }
+}

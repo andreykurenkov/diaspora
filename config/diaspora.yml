@@ -556,8 +556,8 @@ configuration: ## Section
     ## Title will be used for the opengraph og:site_name property while description will be used
     ## for description and og:description.
     default_metas:
-      #title: 'diaspora* social network'
-      #description: 'diaspora* is the online social world where you are in control.'
+      title: 'The Kollektiv Club'
+      description: 'An exclusive social media site for cool nerdy fun kids'
 
     ## CSP (Content Security Policy) header
     ## CSP allows limiting origins from where resources are allowed to be loaded. This
@@ -682,7 +682,7 @@ configuration: ## Section
     account: "andrey"
 
     ## E-mail address to contact the administrator.
-    #podmin_email: 'podmin@example.org'
+    podmin_email: 'andreyvkurenkov@gmail.com'
 
   ## Settings related to relays
   relay: ## Section

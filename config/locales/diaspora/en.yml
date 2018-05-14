@@ -520,8 +520,8 @@ en:
 
   home:
     default:
-      headline: "Welcome to %{pod_name}"
-      byline: "The online social world where you are in control"
+      headline: "The Online Crecine or Something"
+      byline: "Cause why not set up a little Facebook just for ourselves?"
       be_who_you_want_to_be: "Be who you want to be"
       be_who_you_want_to_be_info: "A lot of networks insist that you use your real identity. Not diaspora*. Here you can choose who you want to be, and share as much or as little about yourself as you want. It really is up to you how you want to interact with other people."
       choose_your_audience: "Choose your audience"

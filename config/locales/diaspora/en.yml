@@ -522,12 +522,10 @@ en:
     default:
       headline: "Welcome Back to the Klub"
       byline: "Cause why not set up a little Facebook just for ourselves?"
-      be_who_you_want_to_be: "Be who you want to be"
-      be_who_you_want_to_be_info: "A lot of networks insist that you use your real identity. Not diaspora*. Here you can choose who you want to be, and share as much or as little about yourself as you want. It really is up to you how you want to interact with other people."
-      choose_your_audience: "Choose your audience"
-      choose_your_audience_info: "diaspora*’s aspects allow you to share with just those people you want to. You can be as public or as private as you like. Share a funny photo with the whole world, or a deep secret just with your closest friends. You’re in control."
-      own_your_data: "Own your own data"
-      own_your_data_info: "Many networks use your data to make money by analysing your interactions and using this information to advertise things to you. diaspora* doesn’t use your data for any purpose other than allowing you to connect and share with others."
+      be_who_you_want_to_be: "Let's make social media social again"
+      be_who_you_want_to_be_info: "Because Facebook sucks, but it doesn't have to. "
+      choose_your_audience_info: "No more ads, randos, or other nonsense - just a little social network for virtually keeping up with your good friends."
+      own_your_data_info: "We forked the code - all logic and data in our control!"
     podmin:
       headline: "Welcome, friend."
       byline: "You’re about to change the Internet. Let’s get you set up, shall we?"

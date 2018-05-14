@@ -88,7 +88,7 @@ defaults:
       key:
   settings:
     pod_name: 'diaspora*'
-    enable_registrations: true
+    enable_registrations: false
     autofollow_on_join: true
     autofollow_on_join_user: 'hq@pod.diaspora.software'
     welcome_message:
@@ -97,7 +97,7 @@ defaults:
       text: 'Hello %{username}, welcome to diaspora*.'
     invitations:
       open: true
-      count: 25
+      count: 100
     paypal_donations:
       enable: false
       currency: USD
@@ -128,7 +128,7 @@ defaults:
       - 'contact'
       - 'example_user1dsioaioedfhgoiesajdigtoearogjaidofgjo'
     captcha:
-      enable: true
+      enable: false
       image_size: '120x20'
       captcha_length: 5
       image_style: 'simply_green'

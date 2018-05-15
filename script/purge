@@ -1,3 +1,0 @@
-heroku repo:purge_cache -a kollektiv-club
-git commit --allow-empty -a -m "Purge commit"
-git push 

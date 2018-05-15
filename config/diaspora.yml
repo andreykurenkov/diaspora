@@ -36,7 +36,7 @@ configuration: ## Section
     ## However changing http to https is okay and has no consequences.
     ## If you do change the URL, you will have to start again as the URL
     ## will be hardcoded into the database.
-    #url: "https://kollektiv.club/"
+    #url: "https://example.org/"
 
     ## Set the bundle of certificate authorities (CA) certificates.
     ## This is specific to your operating system.
@@ -58,7 +58,7 @@ configuration: ## Section
     ## you're not using SSL. Also there is no guarantee that posting to
     ## services will be possible if SSL is disabled.
     ## Do not change this default unless you are sure!
-    require_ssl: true
+    require_ssl: false
 
     ## Single-process mode (default=false).
     ## If set to true, Diaspora will work with just the appserver (Unicorn by
@@ -355,7 +355,7 @@ configuration: ## Section
 
     ## Pod name (default="diaspora*")
     ## The pod name displayed in various locations, including the header.
-    pod_name: "The Kollektiv Klub"
+    pod_name: "Kollektiv"
 
     ## Allow registrations (default=true)
     ## Set this to false to prevent people from signing up to your pod
@@ -373,7 +373,7 @@ configuration: ## Section
     ## The diaspora* HQ account keeps users up to date with news about Diaspora.
     ## If you set another auto-follow account (for example your podmin account),
     ## please consider resharing diaspora* HQ's posts for your pod's users!
-    #autofollow_on_join_user: 'andrey@kollektiv.club'
+    #autofollow_on_join_user: 'hq@pod.diaspora.software'
 
     ## Welcome Message settings
     welcome_message: ##Section
@@ -556,8 +556,8 @@ configuration: ## Section
     ## Title will be used for the opengraph og:site_name property while description will be used
     ## for description and og:description.
     default_metas:
-      title: 'The Kollektiv Club'
-      description: 'An exclusive social media site for cool nerdy fun kids'
+      #title: 'diaspora* social network'
+      #description: 'diaspora* is the online social world where you are in control.'
 
     ## CSP (Content Security Policy) header
     ## CSP allows limiting origins from where resources are allowed to be loaded. This
@@ -679,10 +679,10 @@ configuration: ## Section
     ## This doesn't make the user an admin but is used when a generic
     ## admin contact is needed, much like the postmaster role in mail
     ## systems. Set only the username, NOT the full ID.
-    account: "andrey"
+    #account: "podmaster"
 
     ## E-mail address to contact the administrator.
-    podmin_email: 'andreyvkurenkov@gmail.com'
+    #podmin_email: 'podmin@example.org'
 
   ## Settings related to relays
   relay: ## Section

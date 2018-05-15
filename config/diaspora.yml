@@ -355,13 +355,13 @@ configuration: ## Section
 
     ## Pod name (default="diaspora*")
     ## The pod name displayed in various locations, including the header.
-    pod_name: "Kollektiv"
+    pod_name: "The Kollektiv Klub"
 
     ## Allow registrations (default=true)
     ## Set this to false to prevent people from signing up to your pod
     ## without an invitation. Note that this needs to be set to true
     ## (or commented out) to enable the first registration (you).
-    #enable_registrations: true
+    enable_registrations: false
 
     ## Auto-follow on sign-up (default=true)
     ## Users will automatically follow a specified account on creation.
@@ -373,7 +373,7 @@ configuration: ## Section
     ## The diaspora* HQ account keeps users up to date with news about Diaspora.
     ## If you set another auto-follow account (for example your podmin account),
     ## please consider resharing diaspora* HQ's posts for your pod's users!
-    #autofollow_on_join_user: 'hq@pod.diaspora.software'
+    autofollow_on_join_user: 'andrey@kollektiv.club'
 
     ## Welcome Message settings
     welcome_message: ##Section

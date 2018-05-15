@@ -522,9 +522,11 @@ en:
     default:
       headline: "Welcome Back to the Klub"
       byline: "Cause why not set up a little Facebook just for ourselves?"
-      be_who_you_want_to_be: "Let's make social media social again"
-      be_who_you_want_to_be_info: "Because Facebook sucks, but it doesn't have to. Good & fun vibes only, like the good ol' days."
+      be_who_you_want_to_be: "Make social media social again"
+      be_who_you_want_to_be_info: "Because Facebook sucks, but it does not have to. Good and fun vibes only, like the good old days."
+      choose_your_audience: "Real IRL friends only"
       choose_your_audience_info: "No more ads, randos, or other nonsense - just a little social network for virtually keeping up with your good friends."
+      own_your_data: "Your data are safe"
       own_your_data_info: "We forked the code - all logic and data in our control!"
     podmin:
       headline: "Welcome, friend."
